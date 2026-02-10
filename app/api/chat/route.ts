@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { NextRequest, NextResponse } from "next/server";
 
-const genAI = new GoogleGenerativeAI("AIzaSyDvzybch-izdKG_p7wfbcgi9KhZlpf3Mws");
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "AIzaSyDvzybch-izdKG_p7wfbcgi9KhZlpf3Mws");
 
 // Contextos detalhados para cada serviço
 const serviceContexts: Record<string, string> = {

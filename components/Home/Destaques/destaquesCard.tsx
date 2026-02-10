@@ -5,7 +5,7 @@ interface Props {
   linkText: string;
 }
 
-const DestaquesCard = (props: Props) => {
+const DestaquesCard = () => {
   return (
     <div>destaquescard</div>
   )

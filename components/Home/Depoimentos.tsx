@@ -50,7 +50,7 @@ const Depoimentos = () => {
             >
               <Quote className="absolute top-6 right-8 text-white/20 w-12 h-12" />
               <p className="text-white text-lg italic mb-8 leading-relaxed relative z-10">
-                "{t.content}"
+                &quot;{t.content}&quot;
               </p>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white font-bold">
