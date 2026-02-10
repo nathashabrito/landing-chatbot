@@ -38,7 +38,7 @@ const Contato = () => {
                 </div>
                 <div>
                   <p className="text-sm text-[#999] font-bold uppercase tracking-widest">E-mail</p>
-                  <p className="text-[#262626] font-medium">contato@archio.com.br</p>
+                  <p className="text-[#262626] font-medium">suporte@archio.com.br</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
