@@ -29,7 +29,7 @@ const Contato = () => {
                 </div>
                 <div>
                   <p className="text-sm text-[#999] font-bold uppercase tracking-widest">Telefone</p>
-                  <p className="text-[#262626] font-medium">+55 (11) 4000-0000</p>
+                  <p className="text-[#262626] font-medium">+55 (34) 9999 - 9999</p>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -47,7 +47,7 @@ const Contato = () => {
                 </div>
                 <div>
                   <p className="text-sm text-[#999] font-bold uppercase tracking-widest">Localização</p>
-                  <p className="text-[#262626] font-medium">São Paulo, SP - Brasil</p>
+                  <p className="text-[#262626] font-medium">Uberaba, MG - Brasil</p>
                 </div>
               </div>
             </div>
